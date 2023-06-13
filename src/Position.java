@@ -1,8 +1,10 @@
 public class Position {
 
-    private int row;
+    // Encapsulation
+    private int row;    
     private int column;
     
+    // Constructors
     public Position(int row, int column) {
         this.row = row;
         this.column = column;
@@ -24,6 +26,7 @@ public class Position {
         this.column = column;
     }
 
+    // ToString
     @Override
     public String toString() {
         return row + ", " + column;
